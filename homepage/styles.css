@@ -1,9 +1,16 @@
+
+@font-face {
+    font-family: Roboto;
+    /* src: url('fonts/Roboto-Regular.eot')format ('eot'); */
+    src: url ('fonts/Roboto-Regular.woff') format('woff'),
+        url ('fonts/Roboto-Regular.woff2') format ('woff2');
+}
+
 body {
     margin: 0px;
     padding: 0px;
-    font-variant: roboto;
+    font-family: Roboto;
 }
-
 
 .card-1 {
     background-color: #1F2937;
