@@ -15,8 +15,21 @@ body {
 
 .card-1 {
     background-color: #1F2937;
-    padding: 10px;
+    padding: 10px 100px 50px;
 }
 
-.header-logo {
+.header {
+    display: flex;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+    margin-left:auto
+}
+.hero {
+    color: #f9fAf8;
+    /* font-weight:900; */
+}
+ul {
+    list-style-type: none;
 }
