@@ -21,6 +21,11 @@ body {
 .header {
     display: flex;
 }
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 0px;
+}
 .header-links {
     display: flex;
     gap: 20px;
