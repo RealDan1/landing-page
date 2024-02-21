@@ -6,18 +6,22 @@
     url ('fonts/Roboto-Regular.woff') format('woff'),
         url ('fonts/Roboto-Regular.woff2') format ('woff2');
 }
-
+/* * {
+    border: solid 1px red;
+} */
 body {
     margin: 0px;
     padding: 0px;
     font-family: Roboto;
 }
-
+ul {
+    list-style-type: none;
+}
+/* card-1 edits */
 .card-1 {
     background-color: #1F2937;
     padding: 10px 100px 50px;
 }
-
 .header {
     display: flex;
 }
@@ -39,11 +43,23 @@ body {
 .subtext {
     color: #f9fAf8;
 }
-
+.flexbox-1 {
+    display: flex;
+}
+.content-1 {
+    /* flex: 1 1 0; */
+    width: 50%;
+}
+.content-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
 .content-2 .image-1 {
     color: #f9fAf8;
 }
 
-ul {
-    list-style-type: none;
-}
+
+
