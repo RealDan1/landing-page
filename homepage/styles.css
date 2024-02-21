@@ -46,18 +46,22 @@ ul {
     color: #f9fAf8;
     /* font-weight:900; */
     margin: 0px;
+    padding-right: 10px ;
 }
-.subtext {
+.subtext-1 {
     color: #f9fAf8;
     /* margin: 0px; */
+    padding-right: 10px ;
 }
 .flexbox-1 {
     display: flex;
 }
 .content-1 {
-    /* flex: 1 1 0; */
+    display: flex;
+    flex-direction: column;
     width: 50%;
     /* height: 200px; */
+    justify-content: space-between;
 }
 .content-2 {
     width: 50%;
@@ -65,6 +69,7 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: grey;
+    
 }
 .content-2 .image-1 {
     color: #f9fAf8;
@@ -75,6 +80,7 @@ button {
     padding: 5px 25px;
     border: 0px;
     border-radius: 5px;
+    width: 100px;
 }
 
 
