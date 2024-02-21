@@ -27,6 +27,7 @@ body {
     margin: 0px;
 }
 .header-links {
+    color: #e5e7eb;
     display: flex;
     gap: 20px;
     margin-left:auto
@@ -35,6 +36,14 @@ body {
     color: #f9fAf8;
     /* font-weight:900; */
 }
+.subtext {
+    color: #f9fAf8;
+}
+
+.content-2 .image-1 {
+    color: #f9fAf8;
+}
+
 ul {
     list-style-type: none;
 }
