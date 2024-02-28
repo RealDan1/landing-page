@@ -81,6 +81,9 @@ button {
     border-radius: 5px;
     width: 100px;
 }
+button:hover {
+    cursor: pointer;
+}
 
 /* card-2 styling */
 
@@ -100,13 +103,13 @@ button {
 }
 
 .random-info {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .bluebox {
     border: solid #3882f6 2px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 7px;
 }
 
@@ -115,8 +118,18 @@ button {
 }
 
 .subtext-2 {
-    width: 100px;
+    width: 110px;
     font-size: 12px;
+    margin-top: 5px;
+}
+
+.card-3 {
+    background-color: #e5e7eb;
+    padding: 100px;
+
+}
+.quote {
+    
 }
 
 
