@@ -15,10 +15,16 @@ body {
     font-family: Roboto, sans-serif;
 }
 li {
-    margin-left: 0px;
+    margin-left: 0px;   
 }
+
 ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 /* card-1 styling */
 .card-1 {
@@ -31,7 +37,6 @@ ul {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-
 }
 .header-links {
     color: #e5e7eb;
@@ -40,7 +45,6 @@ ul {
     align-items: center;
     margin-left: auto;
     /* padding: 0px; */
-
 }
 .hero {
     color: #f9fAf8;
@@ -68,8 +72,8 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: grey;
-    
 }
+
 .content-2 .image-1 {
     color: #f9fAf8;
 }
@@ -125,11 +129,21 @@ button:hover {
 
 .card-3 {
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
 
 }
 .quote {
-    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin-bottom: 0px;
+}
+.thor-sig {
+    margin-top: 0px;
+    margin-left: auto;
 }
 
 
