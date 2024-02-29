@@ -134,7 +134,7 @@ button:hover {
     flex-direction: column;
 }
 .quote {
-    font-size: 36px;
+    font-size: 24px;
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
