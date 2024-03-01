@@ -87,6 +87,7 @@ button {
 }
 button:hover {
     cursor: pointer;
+    background-color: #3679e6;
 }
 
 /* card-2 styling */
