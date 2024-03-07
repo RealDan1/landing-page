@@ -151,6 +151,19 @@ button:hover {
     margin-left: auto;
 }
 
+.card-4 {
+    padding: 50px;
+}
+.call-to-a-card {
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding:20px;
+}
+
+p .flexb-for-button {
+    color: #e5e7eb;
+}
+
 
 
 
