@@ -85,7 +85,8 @@ button {
     padding: 5px 25px;
     border: 0px;
     border-radius: 5px;
-    width: 100px;
+    /* width: 100px; */
+    max-width: fit-content;
 }
 button:hover {
     cursor: pointer;
@@ -152,7 +153,7 @@ button:hover {
 }
 
 .card-4 {
-    padding: 100px 120px;
+    padding: 90px 110px;
 }
 .call-to-a-card {
     border-radius: 5px;
@@ -168,6 +169,11 @@ button:hover {
 
 #sign-up-2 {
     margin-left: auto;
+    border: solid #F9FAF8 1px;
+    max-width: fit-content;
+    max-height: 30px;
+    /* border: 1px; */
+    align-self: center;
 }
 
 
