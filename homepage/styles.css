@@ -158,7 +158,7 @@ button:hover {
 .call-to-a-card {
     border-radius: 5px;
     background-color: #3882f6;
-    padding:20px;
+    padding: 20px 60px;
     min-width: 500px;
     display: flex;
 }
