@@ -167,6 +167,14 @@ button:hover {
     color: #e5e7eb;
 }
 
+.flexb-for-button #call2action-p {
+    margin: 10px;
+}
+.flexb-for-button #lower-signup-p {
+    margin: 10px;
+    font-size: 15px;
+}
+
 #sign-up-2 {
     margin-left: auto;
     border: solid #F9FAF8 1px;
