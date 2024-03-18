@@ -13,6 +13,9 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
 li {
     margin-left: 0px;   
@@ -154,6 +157,7 @@ button:hover {
 
 .card-4 {
     padding: 90px 110px;
+    margin-bottom: auto;
 }
 .call-to-a-card {
     border-radius: 5px;
@@ -182,6 +186,13 @@ button:hover {
     max-height: 30px;
     /* border: 1px; */
     align-self: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+    color: #e5e7eb;
 }
 
 
