@@ -15,7 +15,8 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+    min-height: 100vh;
+    justify-content: space-between;
 }
 li {
     margin-left: 0px;   
@@ -190,7 +191,7 @@ button:hover {
 }
 
 .footer {
-    /* flex: 1 1 auto; */
+    /* margin-top: auto; */
     background-color: #1F2937;
     text-align: center;
     padding: 20px;
