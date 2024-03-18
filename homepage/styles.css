@@ -15,7 +15,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    /* justify-content: space-around; */
 }
 li {
     margin-left: 0px;   
@@ -141,7 +141,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     min-width: 600px;
-    max-height: 600px;
+    /* max-height: 600px; */
 }
 .quote {
     font-size: 24px;
@@ -165,6 +165,7 @@ button:hover {
     padding: 20px 60px;
     min-width: 500px;
     display: flex;
+    /* flex: 1 1 0; */
 }
 
 .flexb-for-button {
@@ -189,6 +190,7 @@ button:hover {
 }
 
 .footer {
+    /* flex: 1 1 auto; */
     background-color: #1F2937;
     text-align: center;
     padding: 20px;
