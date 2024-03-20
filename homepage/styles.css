@@ -138,7 +138,7 @@ button:hover {
 
 .card-3 {
     background-color: #e5e7eb;
-    padding: 70px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     min-width: 600px;
