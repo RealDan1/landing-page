@@ -12,7 +12,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -20,7 +20,7 @@ body {
 }
 
 p {
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
 }
 li {
     margin-left: 0px;   
