@@ -1,11 +1,5 @@
 
-@font-face {
-    font-family: Roboto;
-    /* src: url('fonts/Roboto-Regular.eot')format ('eot'); */
-    src: url ('Roboto-Regular-webfont.woff') format('woff'),
-    /* url ('fonts/Roboto-Regular.woff') format('woff'), */
-        /* url ('fonts/Roboto-Regular.woff2') format ('woff2'); */
-}
+
 /* * {
     border: solid 1px red;
 } */
