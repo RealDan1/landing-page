@@ -1,16 +1,26 @@
 
-
+@font-face {
+    font-family: 'Roboto';
+    /* src: url('fonts/Roboto-Regular.eot')format ('eot'); */
+    src: url ('fonts/Roboto-Regular-webfont.woff') format('woff');
+    /* url ('fonts/Roboto-Regular.woff') format('woff'), */
+        /* url ('fonts/Roboto-Regular.woff2') format ('woff2'); */
+}
 /* * {
     border: solid 1px red;
 } */
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Roboto;
+    font-family: 'Roboto', serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
+}
+
+p {
+    font-family: 'Roboto', serif;
 }
 li {
     margin-left: 0px;   
